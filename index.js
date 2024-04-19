@@ -8,7 +8,6 @@ const server = http
     res.writeHead(200, {
       'Content-Type': 'text/html; charset=utf-8'
     });
-
     switch (req.method) {
       case 'GET':
         if (req.url === '/enquetes/yaki-tofu') {
